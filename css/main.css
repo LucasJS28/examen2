@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu ul li {
+    margin: 0 10px;
+}
+.menu ul li a {
+    color: red;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.content {
+    margin-top: 15px;
+    /* Ajusta el valor según la altura del menú */
+    position: relative;
+    text-align: center;
+}
+.ad-image {
+    display: block;
+    width: 100%;
+    height: auto;  
+}
+.texto {
+    color: red; 
+}
+@font-face {
+    font-family: 'MiFuente';
+    src: url(../fuente/GhastlyPanic.ttf) format('truetype');
+}
+.title {
+    font-family: 'MiFuente', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+.ad-image-text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-family: 'MiFuente', sans-serif;
+    font-size: 180px;
+    color: #E30049;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+
+
+
